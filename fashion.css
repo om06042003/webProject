@@ -1,0 +1,809 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* h1{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 50px;
+  font-style: normal;
+} */
+
+body {
+    background-color: white
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 26px 15px;
+    width: 100%;
+
+
+}
+
+.logo {
+    width: 99px;
+    height: 32px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+header div {
+
+    margin: 5px;
+}
+
+nav {
+    display: none;
+}
+
+.bars {
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+
+}
+
+.fa-bars {
+    font-size: 22px;
+    text-align: center;
+
+
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+li {
+    margin: 5px;
+    list-style-type: none;
+
+
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.hero {
+    display: none;
+}
+
+.bg-img {
+    background-image: url(./CSS/category-1.jpg);
+    background-repeat: no-repeat;
+    height: 126vh;
+    /* width: 55%; */
+    background-position: center;
+    margin-bottom: 5px;
+}
+
+
+.ii {
+    width: 100%;
+}
+
+.bg-img {
+    position: relative;
+
+}
+
+.background-img {
+    position: absolute;
+    top: 40%;
+    right: 15px;
+}
+.background-img a{
+    color: red;
+}
+
+.multi-img {
+    position: relative;
+}
+
+.iii {
+    position: absolute;
+    top: 40%;
+    left: 15px;
+}
+.iii a{
+    color:red;
+}
+
+.all {
+    display: flex;
+    font-size: 10px;
+
+}
+
+.all a {
+    color: black;
+    text-decoration: none;
+}
+
+u {
+    color: red;
+
+}
+
+.second {
+    margin: 40px 5px 30px;
+
+}
+
+.logo1 {
+    margin-bottom: 25px;
+}
+
+.star {
+    width: 50px;
+    height: 30px;
+}
+
+.product {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.product-content {
+    text-align: center;
+}
+
+
+
+.product-content img {
+    width: 34px;
+    height: 30px;
+
+
+}
+
+.product-img {
+    width: 290px;
+}
+
+i {
+    font-size: 10px;
+    color: rgb(215, 215, 75);
+}
+
+.banner {
+    background-image: url(./background/banner-1.jpg);
+    height: 500px;
+    width: 100vw;
+    background-position: center;
+    margin-top: 70px;
+    position: relative;
+
+
+
+
+}
+
+
+.banner-content {
+    position: absolute;
+    text-align: center;
+    top: 185px;
+    right: 30px;
+    font-size: 22px;
+
+
+
+}
+
+.banner-content p {
+    color: red;
+}
+
+.banner-content a {
+    color: black;
+}
+
+.banner-content a {
+    text-decoration: underline rgb(243, 8, 8);
+}
+
+.hot-trend {
+    display: flex;
+    margin: 38px 10px 39px 0px;
+
+}
+
+.trend {
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.trend h4 {
+    font-size: 20px;
+
+}
+
+.trend img {
+    margin-right: 20px;
+}
+
+.underline {
+    border: 1.5px solid red;
+    width: 62px;
+
+}
+
+.discount img {
+    width: 100%;
+}
+
+.discount-content {
+    background-color: gainsboro;
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    z-index: -1;
+}
+
+.circle {
+    position: absolute;
+    top: 10px;
+    right: 64px;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: -1;
+
+
+}
+
+.discount-text {
+    position: absolute;
+    top: 59px;
+    right: 12px;
+    z-index: 1;
+    text-align: center;
+
+
+    font-size: 14px;
+
+}
+
+.discount-text h2 {
+    font-size: 50px;
+    color: red;
+}
+
+.countdown {
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    font-size: 25px;
+}
+
+.countdown-item {
+    display: flex;
+    margin: 5px;
+
+
+
+
+}
+
+.discount-shop {
+    position: absolute;
+    bottom: 5px;
+    right: 35%;
+
+}
+
+.discount-shop a {
+    color: black;
+}
+
+.service1 {
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.service1 i {
+    font-size: 30px;
+    color: red;
+}
+
+.service {
+    margin: 50px 30px 40px 10px;
+}
+
+.service2 {
+    margin-left: 20px;
+}
+
+.footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.link {
+    margin-top: 20px;
+}
+
+.account {
+    margin-top: 20px;
+}
+
+.news {
+    margin-top: 20px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.newsletter button {
+    
+    background-color: red;
+    border: none;
+    width: 90px;
+    height: 28px;
+    border-radius: 8px;
+    padding: 5px;
+    font-family: serif;
+
+}
+.newsletter{
+    border: 1px solid black;
+    width: 258px;
+    margin-left: 5px;
+    border-radius: 8px;
+    height: 30px;
+}
+.newsletter input{
+        border: none;
+}
+.social-icons i{
+    font-size: 35px;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 768px) {
+
+    .bg-img {
+
+        background-position: center top;
+        margin: 5px;
+        height: 96vh;
+    }
+    
+    
+
+    .bg-multi-img {
+        display: flex;
+        flex-wrap: wrap;
+        width: 45%;
+    }
+
+    .bg-multi-img div {
+        width: 50%;
+    }
+
+    .bg-multi-img {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .bg-multi-img div {
+        width: 48%;
+    }
+
+    .second {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 25px;
+        margin-right: 25px;
+        align-items: baseline;
+        align-self: autos;
+
+    }
+
+    .all {
+        font-size: 15px;
+    }
+
+    .product {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+
+    }
+
+    .product-img {
+        width: 228px;
+    }
+
+    .product2 {
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+
+    .banner-content {
+        position: absolute;
+        text-align: center;
+        top: 185px;
+        right: 190px;
+
+
+
+
+    }
+
+    .banner-content h2 {
+        font-size: 51px;
+    }
+
+    .product-content a {
+        font-size: 10px;
+    }
+
+    .trend {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .hot-trend {
+        display: flex;
+    }
+
+    .circle {
+        position: absolute;
+        top: 30px;
+        right: 276px
+    }
+
+    .discount-text {
+        position: absolute;
+        top: 80px;
+        right: 230px;
+
+
+    }
+
+    .countdown {
+
+        position: absolute;
+        bottom: 89px;
+        font-size: 36px;
+        left: 181px;
+    }
+
+    .discount-shop {
+        position: absolute;
+        bottom: 66px;
+        right: 316px;
+        font-size: 20px;
+    }
+
+    .service {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+    }
+
+    .service1 i {
+
+        font-size: 35px;
+
+
+    }
+
+    .service1 {
+
+        padding: 5px;
+        margin-right: 46px;
+    }
+
+    .service2 {
+        font-size: 12px;
+    }
+
+
+
+
+
+
+    .instaimg {
+        display: flex;
+        flex-wrap: wrap;
+
+
+
+    }
+
+    .instaimg img {
+        width: 33%;
+        height: 50%;
+    }
+
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .link {
+        margin-right: 68px;
+    }
+
+    .account {
+        margin-right: 100px;
+    }
+
+    .news {
+        margin-right: 20px;
+    }
+
+    .social-icons {
+        margin-right: 20px;
+    }
+
+    .footer1 {
+        margin-right: 100px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media(min-width:992px) {
+
+    .main-bg {
+        display: flex;
+    }
+
+    .section-first {
+        display: flex;
+    }
+
+    .bg-multi-img {
+        display: flex;
+        flex-wrap: wrap;
+        width: 45%;
+    }
+
+    .bg-multi-img div {
+        width: 50%;
+    }
+
+
+
+    .bg-img {
+        background-image: url(./CSS/category-1.jpg);
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 55%;
+        background-position: center top;
+        margin-right: 5px;
+    }
+
+    .ii {
+        width: 98%;
+        height: 50vh;
+    }
+    
+
+
+
+
+
+
+
+
+    nav {
+        display: block;
+    }
+
+    nav a {
+        color: black;
+    }
+
+    .hero {
+        display: block;
+
+
+    }
+
+    .fa-bars {
+        display: none;
+        border: none;
+    }
+
+    .bars {
+        border: none;
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        padding: 26px 15px;
+        /* width: 94%; */
+
+
+    }
+
+    .hero {
+        margin-right: 5px;
+
+    }
+
+    .hero i {
+        margin: 0px 10px 0px;
+    }
+
+    .hero a {
+        color: black;
+        text-decoration: none;
+    }
+
+    li {
+        font-size: 50px 25px;
+        margin-right: 12px;
+
+
+    }
+
+    .product-img {
+        width: 233px;
+    }
+
+    .product-img{
+        transform: scale(1);
+    }
+    .product-img:hover{
+        transform: scale(1.2);
+        transition: transform 0.3s ease-in-out;
+        
+    }
+
+    .banner-content {
+        position: absolute;
+        text-align: center;
+        top: 180px;
+        right: 412px;
+
+
+
+
+    }
+
+    .trend {
+        margin-left: 0px;
+    }
+
+    .discount {
+        display: flex;
+    }
+
+    .discount img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .discount-content {
+
+        width: 50%;
+        height: 70vh;
+    }
+
+    .countdown {
+
+        position: absolute;
+
+        left: 80px;
+
+    }
+
+    .discount {
+        margin-left: 35px;
+    }
+
+    .service2 {
+        font-size: 15px;
+    }
+
+    .instaimg {
+        display: flex;
+
+
+
+
+
+    }
+
+    .instaimg img {
+        width: 16%;
+        height: 275px;
+    }
+
+    .imgg{
+        transform: scale(1);
+    }
+    .imgg:hover{
+        transform: scale(1.2);
+        transition: transform 0.3s ease-in-out;
+        
+        
+    }
+
+    .footer {
+        display: flex;
+
+        justify-content: space-between;
+        margin: 40px;
+    }
+
+
+}
